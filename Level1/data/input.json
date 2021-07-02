@@ -1,0 +1,30 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "VirtualWallet",
+      "balance": 1000
+    },
+    {
+      "id": 2,
+      "name": "Wedoofood",
+      "balance": 3000
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "balance": 100
+    },
+    {
+      "id": 2,
+      "balance": 0
+    },
+    {
+      "id": 3,
+      "balance": 0
+    }
+  ],
+  "distributions": [
+  ]
+}

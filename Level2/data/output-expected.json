@@ -1,0 +1,85 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "VirtualWallet",
+      "balance": 600
+    },
+    {
+      "id": 2,
+      "name": "Wedoofood",
+      "balance": 2000
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "balance": [
+        {
+          "wallet_id": 1,
+          "amount": 150
+        },
+        {
+          "wallet_id": 2,
+          "amount": 250
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "balance": [
+        {
+          "wallet_id": 1,
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "balance": [
+        {
+          "wallet_id": 1,
+          "amount": 1000
+        }
+      ]
+    }
+  ],
+  "distributions": [
+    {
+      "id": 1,
+      "wallet_id": 1,
+      "amount": 50,
+      "start_date": "2020-09-16",
+      "end_date": "2021-09-15",
+      "company_id": 1,
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "wallet_id": 1,
+      "amount": 100,
+      "start_date": "2020-08-01",
+      "end_date": "2021-07-31",
+      "company_id": 1,
+      "user_id": 2
+    },
+    {
+      "id": 3,
+      "wallet_id": 1,
+      "amount": 1000,
+      "start_date": "2020-05-01",
+      "end_date": "2021-04-30",
+      "company_id": 2,
+      "user_id": 3
+    },
+    {
+      "id": 4,
+      "wallet_id": 2,
+      "amount": 250,
+      "start_date": "2020-05-01",
+      "end_date": "2021-02-28",
+      "company_id": 1,
+      "user_id": 1
+    }
+  ]
+}
